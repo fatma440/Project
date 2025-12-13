@@ -15,6 +15,9 @@ import { dirname } from "path";
 
 import * as ENV from "./config.js";
 
+import dotenv from "dotenv";
+dotenv.config;
+
 const app = express();
 
 //Middleware
